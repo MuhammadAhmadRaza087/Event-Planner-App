@@ -77,5 +77,79 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
-# Event-Planner
-# Event-Planner-App
+
+# Event Planner App
+
+This repository contains a simple Event Planner App built with React Native. The app allows users to add events, associate them with specific dates, and view the events in a scrollable list. It includes a basic calendar layout for the month and provides functionalities to add events, remove all events, and view the added events.
+
+## Features
+
+- **Event Addition:** Users can add events by entering the event name and selecting the date from the calendar.
+
+- **Event Removal:** There is an option to remove all events from the list.
+
+- **Date Tracking:** The app dynamically tracks the current date and displays it in the input field.
+
+## Components
+
+### `Date.js`
+
+This component represents a date in the calendar. Clicking on a date updates the current date value.
+
+### `Days.js`
+
+This component represents the days of the week and is used in the calendar header.
+
+### `App.js`
+
+The main component that serves as the entry point for the application. It includes the calendar layout, event input fields, and the list of added events.
+
+## How to Run
+
+To run this application, follow these steps:
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/MuhammadAhmadRaza087/To-Do-List.git
+   ```
+
+2. Change to the project directory:
+
+   ```bash
+   cd To-Do-List
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Run the application:
+
+   ```bash
+   npx react-native run-android  # for Android
+   ```
+
+   or
+
+   ```bash
+   npx react-native run-ios  # for iOS
+   ```
+
+Ensure that you have set up your development environment for React Native.
+
+## Usage
+
+1. Launch the app on your emulator or device.
+2. Use the calendar to select a date.
+3. Enter the event name in the provided input field.
+4. Click "Add to Event" to add the event to the list.
+5. Use the "Remove All" button to clear all events from the list.
+
+## Issues and Contributions
+
+If you encounter any issues or have suggestions for improvement, please feel free to open an issue or submit a pull request. Contributions are welcome!
+
+**Happy Planning!**
